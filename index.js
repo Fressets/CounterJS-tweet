@@ -1,6 +1,5 @@
 
 const config = require('./config.json');
-//const config = require('./config.test.json');
 
 const request = require('request');
 const moment = require('moment');
