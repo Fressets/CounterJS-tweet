@@ -1,0 +1,25 @@
+{
+  "name": "counterjs-tweet",
+  "version": "0.0.1",
+  "description": "Watch activity on Counterparty assets and notify it to Twitter.",
+  "author": "Vis Virial <visvirial@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Counterparty",
+    "Bitcoin",
+    "Twitter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "counterjs": "0.0.2",
+    "moment": "^2.17.1",
+    "twitter": "^1.7.0",
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {}
+}

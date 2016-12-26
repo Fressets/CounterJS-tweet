@@ -1,0 +1,31 @@
+{
+	"network": "mainnet",
+	"twitter": {
+		"consumer_key": "",
+		"consumer_secret": "",
+		"access_token_key": "",
+		"access_token_secret": ""
+	},
+	"blockexplorer": {
+		"type": "BlockCypher",
+		"token": "31c49f33f35c85a8f4d9845a754f7c8e",
+		"websocket": "wss://socket.blockcypher.com/v1/btc/main"
+	},
+	"watch": {
+		"templates": {
+			"messages": {
+				"receive": {
+					"before": "",
+					"after": " has received @AMOUNT@ @COIN@ from @SENDER@."
+				}
+			}
+		},
+		"addresses": {
+			"1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": {
+				"messages": {
+					"receive": "YOUR_USER_NAME"
+				}
+			}
+		}
+	}
+}
