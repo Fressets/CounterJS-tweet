@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Fressets/CounterJS-tweet.git"
   },
   "license": "MIT",
   "dependencies": {
